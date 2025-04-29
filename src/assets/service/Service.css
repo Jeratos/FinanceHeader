@@ -1,0 +1,109 @@
+.con {}
+
+.Service {
+    /* max-height: 50vh; */
+    min-height: 80vh;
+
+}
+
+.service-sub-content {
+    background-image: url("../public/assets/img/servicework.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+
+.top-op {
+    min-height: 80vh;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.top-op-sec {
+    min-height: 75vh;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.service-sub-content h1 {
+    text-align: center;
+}
+
+.service-sub-content-2 {
+    line-height: 1.5;
+    background-color: rgb(83, 26, 144);
+    color: white;
+}
+
+.Service-2 {
+    text-align: center;
+}
+
+.Service-2 p {
+    width: 55vw;
+    color: rgb(85, 85, 85);
+}
+
+.Service-2 h1 {
+    color: rgb(83, 26, 144);
+}
+
+.sub-service-3 {
+    background-image: url("../public/assets/img/presentation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sub-service-3-2{
+    background-color: rgb(234, 217, 246);
+    
+}
+.sub-service-3-2 h2{
+color:  rgb(83, 26, 144);
+}
+.sub-service-3-2 span{
+    color:  rgb(83, 26, 144);
+    }
+
+.sub-service-4{
+    background-image: url("../public/assets/img/work.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+@media (max-width: 576px) {
+    .top-op {
+        min-height: 60vh;
+        width: 100vw;
+    }
+
+    .top-op-sec {
+        /* min-height: 75vh; */
+        min-height: 50vh;
+
+        width: 100vw;
+
+        /* background-color: rgba(0, 0, 0, 0.8); */
+    }
+
+    .Service {
+        /* max-height: 50vh; */
+        min-height: 60vh;
+
+    }
+
+    .Service-2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Service-2 p {
+        width: 80vw;
+    }
+    
+}

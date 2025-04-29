@@ -1,0 +1,25 @@
+.nav{
+       /* background-color: #ffff; */
+    /* background-color: rgba(1, 1, 1, 0.6); */
+    transition: 0.5s;
+    position: fixed;
+    top: 0px; 
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.nav-scroll{
+    background-color: rgba(1, 1, 1, 0.85);
+    transition: 0.6s;
+    position: fixed;
+    top: 0px; 
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+
+ 
+}
+/* button{
+    background-color: rgba(146, 146, 146, 0.671);
+} */

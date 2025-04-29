@@ -1,0 +1,88 @@
+.about-sub-content{
+    background-image: url("../public/assets/img/meetings.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.comp-prof-subtite{
+    border-bottom: 2px solid rgb(83, 26, 144);
+}
+.about-con-sub-tite{
+    border-bottom: 2px solid #ffff;
+
+}
+
+.founder img {
+    width: 120px; /* Adjusted for better visibility */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .image-div {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+    height: 5.8rem;
+  }
+  
+  .founder h1 {
+    font-size: 2rem; /* Scales better on smaller devices */
+  }
+  
+  @media (max-width: 768px) {
+    .founder-con h1 {
+      font-size: 1.5rem; /* Adjust header font size on small screens */
+    }
+  
+    .image-div img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .founder p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .founder img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .founder p {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width: 431px){
+   
+    .image-div {
+             
+                 width: 75vw;
+
+      }
+
+  }
+  @media (max-width: 541px){
+   
+    .image-div {
+             
+                 width: 80vw;
+
+      }
+  
+
+  }
+
+  @media (max-width: 1025px),(min-width: 1020px){
+   
+    .last-img{
+             
+              height: 7rem;
+
+      }
+
+  }

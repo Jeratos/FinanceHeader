@@ -1,0 +1,276 @@
+body {
+    /* background: rgb(188, 186, 186); */
+    background-color: #d6c5db;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    font-family:Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
+}
+
+
+
+.home-container {
+    background-image: url("../public/assets/img/homeIndex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    /* position: fixed; */
+}
+
+.title {
+    background-color: #62458b;
+    opacity: 0.8;
+    height: 35rem;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.tite {
+    margin: 0 2rem;
+    width: 50vw;
+}
+.pos {
+  margin-top: -60px;
+}
+
+.know, .know-sec {
+  background-color: rgb(151, 151, 151);
+  z-index: 1;
+  word-wrap: break-word; /* Prevent text overflow */
+}
+
+.know-left, .know-left {
+  color: white;
+  background-color: rgb(48, 48, 48);
+  z-index: 1;
+}
+
+.sub-logo {
+  font-size: 90px;
+}
+
+.sub-left-span {
+  word-break: break-word; /* Ensures text wraps within its container */
+}
+
+.know-right, .know-right-sec {
+  z-index: 1;
+}
+
+.top, .top-sec {
+  background-image: url("../public/assets/img/laptop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.sub-bot {
+  padding: 2rem;
+}
+
+.left-button {
+  max-width: 100%; /* Prevent buttons from overflowing */
+  background: transparent ;
+  border: 1px solid white;
+  color: white;
+  
+}
+
+.sec {
+    order: 1;
+    background-color: rgb(83, 26, 144);
+    z-index: 1;
+
+}
+
+.bot-head {
+    border-bottom: 2px solid rgb(83, 26, 144);
+    color: rgb(83, 26, 144);
+    font-weight: 400;
+
+}
+
+.top-sec {
+    background-image: url("../public/assets/img/handShacke.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+
+.third {
+    /* position: relative; */
+    /* top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 26, 144);
+}
+
+.line {
+    border: 1px solid rgb(83, 26, 144);
+    width: 15rem;
+
+}
+
+.lead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.com {
+    font-weight: 500;
+    margin: 3rem;
+}
+
+.lo {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.meeting-container {
+    background-image: url("../public/assets/img/meetings.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+    position: relative;
+    /* top: 25rem; */
+}
+
+.txt {
+    height: 30rem;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.txt-head {
+    width: 50vw;
+}
+
+.colm {
+    /* position: relative; */
+    /* top: 27rem; */
+    color: rgb(83, 26, 144);
+}
+
+.line {
+    border: 1px solid rgb(83, 26, 144);
+    width: 10vw;
+}
+/* .gri{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, 400px) ;
+    grid-template-rows: 1fr 1fr;
+justify-content: center;
+    gap: 1.5rem;
+}
+.chil{
+    font-size: 15px;
+    font-weight: 500;
+} */
+.chil-h{
+    color: rgb(83, 26, 144);
+}
+
+
+
+
+
+
+/* count component */
+.count {
+    background-image: url("/assets/img/gentle.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .count-main {
+    background-color: rgba(83, 26, 144, 0.726);
+  }
+  
+  .img {
+    display: inline;
+  }
+  
+  img {
+    margin-top: -100px;
+    margin-left: 80px;
+    height: 53vh;
+    filter: drop-shadow(5px 5px 10px #080808);
+  }
+  
+  
+  /* asasc */
+
+  .know-sec {
+    word-wrap: break-word; /* Prevent text from overflowing */
+    word-break: break-word; /* Ensure long words break to a new line */
+    overflow-wrap: break-word; /* Older browsers compatibility */
+  }
+  
+  .know-left, .know-right-sec {
+    padding: 15px;
+  }
+  
+  .sub-left-span {
+    word-break: break-word; /* Prevent long text from overflowing */
+    text-align: justify; /* Better text alignment for readability */
+  }
+  
+  .left-button {
+    max-width: 100%; /* Prevent buttons from exceeding their container */
+  }
+  
+  .top-sec {
+    background-image: url("../public/assets/img/handShacke.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; /* Adjust height as needed */
+  }
+  
+  .sub-bot {
+    padding: 1.5rem;
+  }
+  
+  .bot-head {
+    font-size: 1.5rem; /* Adjust font size for better responsiveness */
+  }
+  
+  @media (max-width: 768px) {
+    .know-sec {
+      flex-direction: column; /* Stack sections vertically */
+    }
+  
+    .top-sec {
+      height: 150px; /* Adjust height for smaller screens */
+    }
+  
+    .sub-left-span {
+      padding: 1rem; /* Reduce padding for better fit */
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  
+    .bot-head {
+      font-size: 1.2rem; /* Smaller font for smaller screens */
+    }
+  }
+  

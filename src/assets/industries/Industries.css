@@ -1,0 +1,113 @@
+.industries-sub-content{
+    background-image: url("../public/assets/img/industriesLanding.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.bt{
+    color:  rgb(83, 26, 144);
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(83, 26, 144);
+}
+
+
+.bt:hover{
+    color: white;
+    background-color: rgb(83, 26, 144);
+    border: 1px solid rgb(231, 199, 239);
+    transition: 0.5s ease-in-out;
+
+    
+}
+.indus{
+    margin: 0 1.5rem;
+    background-color: rgb(234, 217, 246);
+
+}
+.sub-indus{
+
+    height: 25vh;
+}
+.sub-indus h3{
+    color:rgb(83, 26, 144);
+}
+.img-1{
+    background-image: url("../public/assets/img/healthCare.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.img-2{
+    background-image: url("../public/assets/img/manufacturing.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.img-3{
+    background-image: url("../public/assets/img/automobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.img-4{
+    background-image: url("../public/assets/img/RealEstate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.Performance{
+    color:rgb(83, 26, 144);
+}
+.other-indus-head{
+    border-bottom: 3px solid rgb(83,26,144);
+    }
+
+ 
+
+@media (max-width: 767px) {
+    .img-1, .img-2, .img-3, .img-4 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 150px; /* Adjust height as required */
+        border-radius: 10px; /* Optional for a polished look */
+        
+      }
+      .sub-indus{
+        /* padding: 2px; */
+        height: 30vh;
+    }
+      
+}
+
+@media (max-width:541px) ,(min-width:540px) {
+    .sub-indus{
+        /* padding: 2px; */
+        height: 40vh;
+    }
+
+}
+
+@media (max-width: 391px) {
+ 
+    .sub-indus{
+        /* padding: 2px; */
+        height: 42vh;
+    }
+}
+@media (max-width: 768px) {
+    .indus{
+        background-color: rgb(234, 217, 246);
+        margin: 0;
+        
+        }
+}
