@@ -1,6 +1,6 @@
 {
+  "homepage" : "https://jeratos.github.io/financeHeader",
   "name": "client",
-  "homepage" : "https://jeratos.github.io/FinanceHeader",
   "private": false,
   "version": "0.0.0",
   "type": "module",
