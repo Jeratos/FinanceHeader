@@ -15,11 +15,11 @@ function App() {
     <BrowserRouter basename="/financeHeader">
     <Nav/>
     <Routes>
-       <Route path="./financeHeader" element={<Home />}/>
-       <Route path="./service" element={<Service />}/>
-       <Route path="./industries" element={<Industries />}/>
-       <Route path="./about" element={<About />}/>
-       <Route path="./contact" element={<Contact />}/>
+       <Route path="/" element={<Home />}/>
+       <Route path="/service" element={<Service />}/>
+       <Route path="/industries" element={<Industries />}/>
+       <Route path="/about" element={<About />}/>
+       <Route path="/contact" element={<Contact />}/>
       
 
     </Routes>
