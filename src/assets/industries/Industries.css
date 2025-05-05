@@ -1,5 +1,5 @@
 .industries-sub-content{
-    background-image: url("./public/assets/img/industriesLanding.webp");
+    background-image: url("../../../public/assets/img/industriesLanding.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,28 +35,28 @@
     color:rgb(83, 26, 144);
 }
 .img-1{
-    background-image: url("../public/assets/img/healthCare.jpg");
+    background-image: url("../../../public/assets/img/healthCare.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
 }
 .img-2{
-    background-image: url("../public/assets/img/manufacturing.jpeg");
+    background-image: url("../../../public/assets/img/manufacturing.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
 }
 .img-3{
-    background-image: url("../public/assets/img/automobile.jpg");
+    background-image: url("../../../public/assets/img/automobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
 }
 .img-4{
-    background-image: url("../public/assets/img/RealEstate.jpg");
+    background-image: url("../../../public/assets/img/RealEstate.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
