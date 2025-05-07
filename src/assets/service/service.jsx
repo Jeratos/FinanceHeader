@@ -54,7 +54,7 @@ export default function service() {
         <dv className="sub-service-3-2 p-5 col-lg-6 d-flex flex-column justify-content-center align-items-center  ">
   <div className='my-3'>
     <span>Business</span>
-    <h2>Business Advicet</h2>
+    <h2>Business Advice</h2>
     <p className='text-secondary'>Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
   </div>
   <div className='my-3'>
